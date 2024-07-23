@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int cal(int a, int b);
+
+int main(){
+    int a,b,result;
+    scanf("%d %d", &a, &b);
+    result=cal(a,b);
+    printf("%d",result);
+}
+
+int cal(int a, int b){
+    return (a+b)*(a-b);
+}
