@@ -1,14 +1,14 @@
 #include <stdio.h>
 
-int cal(int a, int b);
+long long int cal(long long int a, long long int b);
 
 int main(){
-    int a,b,result;
-    scanf("%d %d", &a, &b);
+    long long int a,b,result;
+    scanf("%lld %lld", &a, &b);
     result=cal(a,b);
-    printf("%d",result);
+    printf("%lld",result);
 }
 
-int cal(int a, int b){
+long long int cal(long long int a, long long int b){
     return (a+b)*(a-b);
 }
