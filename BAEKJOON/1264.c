@@ -7,7 +7,7 @@ int main() {
     while(1){
 
         int check = 0;
-        fgets(str,255,stdin);
+        gets(str);
 
         for(int i = 0; str[i]!='\0'; i++){
             
